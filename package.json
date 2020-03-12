@@ -1,7 +1,7 @@
 {
   "name": "umi-plugin-iconfont",
-  "version": "0.0.9",
-  "description": "在打包umi项目的时候,将iconfont.js打包到本地使用.",
+  "version": "0.1.4",
+  "description": "在打包umi项目的时候，将iconfont.js打包到本地使用。",
   "authors": {
     "name": "Qingtian239113",
     "email": "980286353@qq.com"
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "BROWSER=none cross-env APP_ROOT=$PWD/example umi dev",
     "build": "father-build",
-    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",

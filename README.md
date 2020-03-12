@@ -34,7 +34,7 @@ export default {
 ``` js
 {
     scriptSrc:'//at.alicdn.com/t/font_xxx_xxxx.js',
-    fontPath:''
+    fontPath:'' //js存放路径,默认为 ./iconfont
 }
 ```
 
