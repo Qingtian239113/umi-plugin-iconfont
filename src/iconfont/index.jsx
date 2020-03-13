@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import './iconfont.css';
+import './index.css';
 
 const Index = memo((props) => {
     return <svg {...props} className={'icon ' + props.className} aria-hidden="true">

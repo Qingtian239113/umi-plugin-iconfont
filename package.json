@@ -27,9 +27,7 @@
     "umi-types": ">= 0.4.0-beta.4"
   },
   "files": [
-    "lib",
-    "src",
-    "ui"
+    "lib"
   ],
   "license": "MIT"
 }

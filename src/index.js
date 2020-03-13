@@ -31,10 +31,8 @@ export default function (api, options = {scriptUrl: '', fontPath: ''}) {
                 request('http:' + options.scriptUrl).pipe(fs.createWriteStream(absFontPath + fileName));
             });
         }
-
     };
 
     addScript();
 
 }
-
