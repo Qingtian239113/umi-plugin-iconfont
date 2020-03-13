@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-iconfont",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "在打包umi项目的时候，将iconfont.js打包到本地使用。",
   "authors": {
     "name": "Qingtian239113",
