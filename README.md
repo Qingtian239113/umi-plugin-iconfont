@@ -1,4 +1,4 @@
-# iconfont
+# umi-plugin-iconfont
 
 [![NPM version](https://img.shields.io/npm/v/iconfont.svg?style=flat)](https://npmjs.org/package/umi-plugin-iconfont)
 [![NPM downloads](http://img.shields.io/npm/dm/iconfont.svg?style=flat)](https://npmjs.org/package/umi-plugin-iconfont)
@@ -8,13 +8,8 @@
 ## Install
 
 ```bash
-# or yarn
-$ npm install
-```
-
-```bash
-$ npm run build --watch
-$ npm run start
+# npm 
+$ npm install umi-plugin-iconfont
 ```
 
 ## Usage
@@ -33,7 +28,7 @@ export default {
 
 ``` js
 {
-    scriptSrc:'//at.alicdn.com/t/font_xxx_xxxx.js',
+    scriptUrl:'//at.alicdn.com/t/font_xxx_xxxx.js',
     fontPath:'' //js存放路径,默认为 ./iconfont
 }
 ```
